@@ -1,0 +1,52 @@
+html{
+}
+
+body{
+}
+
+img{
+	object-fit:cover;
+	display:block;
+	height:240px;
+	width:100%;
+}
+
+img:hover{
+	opacity:0.8;
+}
+
+h1, h2, h3, h4, h5, h6{
+	text-align:center;
+}
+
+.featured{
+	background-color:#DCDCDC;
+	border-radius:8px;
+}
+
+.sort{
+	clear:both;
+	width:444px;
+	margin:0 auto;
+	padding:20px 0;
+}
+
+.button{
+	background-color:#007bff;
+	border-radius:8px;
+	text-align:center;
+	padding:8px 20px;
+	width:200px;
+	margin:10px;
+	display:inline-block;
+	color:white;
+}
+
+.button:hover{
+opacity:0.8;
+}
+
+.button p{
+	font-size:20px;
+	margin:0px;
+}
