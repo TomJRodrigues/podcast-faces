@@ -19,14 +19,37 @@ h1, h2, h3, h4, h5, h6{
 	text-align:center;
 }
 
+footer{
+	margin-top:40px;
+}
+
+.alphabet{
+	margin:0 auto 20px;
+}
+
+.alphabet ul li{
+	float:left;
+	margin:0 4px;
+	padding:2px;
+	list-style:none;
+}
+
+.sortAlphaButton{
+	color:#0000EE;
+}
+
+.sortAlphaButton:hover{
+	text-decoration:underline;
+	cursor:pointer;
+}
+
 .featured{
-	background-color:#DCDCDC;
 	border-radius:8px;
 }
 
 .sort{
 	clear:both;
-	width:444px;
+	width:670px;
 	margin:0 auto;
 	padding:20px 0;
 }
